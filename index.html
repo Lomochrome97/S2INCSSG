@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study2 Inconsistent</title>
   <style>
 
@@ -215,6 +216,44 @@
       70%  { opacity: 1; }
       100% { opacity: 0; display: none; }
     }
+
+    @media (max-width: 768px) {
+      .hotel {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .slider-container {
+        width: 100%;
+        height: auto;
+      }
+
+      .image-slider {
+        height: 200px;
+      }
+
+      .info-container {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .info-center,
+      .info-right {
+        width: 100%;
+        height: auto;
+      }
+
+      .reserve-btn {
+        width: 100%;
+      }
+
+      .price-box {
+        text-align: left;
+      }
+
+      .rating-box {
+        align-items: flex-start;
+      }
   </style>
 </head>
 <body>
