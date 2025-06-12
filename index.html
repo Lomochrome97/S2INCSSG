@@ -398,6 +398,12 @@
             setTimeout(() => updateRoomCount(index + 1), timeDelays[index]);
         }
      }
+
+       // Book 버튼 클릭 시 팝업 띄우기
+      const reserveBtn = document.querySelector('.reserve-btn');
+      reserveBtn.addEventListener('click', function() {
+        alert('Please return to the survey and fill in your respose based on what you saw on this page');
+      });
     });
   </script>
 
